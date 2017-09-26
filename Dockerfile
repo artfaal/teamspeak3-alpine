@@ -5,8 +5,8 @@ EXPOSE 9987/udp 10011 30033
 
 ENV \
 	TS_DIR="/opt/teamspeak" \
-	TS_RELEASE="http://dl.4players.de/ts/releases/3.0.13.6/teamspeak3-server_linux_amd64-3.0.13.6.tar.bz2" \
-	TS_SHA="19ccd8db5427758d972a864b70d4a1263ebb9628fcc42c3de75ba87de105d179" \
+	TS_RELEASE="http://dl.4players.de/ts/releases/3.0.13.8/teamspeak3-server_linux_amd64-3.0.13.8.tar.bz2" \
+	TS_SHA="460c771bf58c9a49b4be2c677652f21896b98a021d7fff286e59679b3f987a59" \
 	TS_ARTIFACT="teamspeak.tar.bz2" \
 	TS_DATA="/data"
 

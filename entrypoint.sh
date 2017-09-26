@@ -7,6 +7,8 @@ mkdir -p /data/logs
 touch /data/query_ip_blacklist.txt
 touch /data/query_ip_whitelist.txt
 touch /data/ts3server.sqlitedb
+touch /data/licensekey.dat
+mkdir -p /data/files
 
 # boot up server in the foreground
 ./opt/teamspeak/ts3server_minimal_runscript.sh $@ &
